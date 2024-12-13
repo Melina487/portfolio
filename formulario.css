@@ -1,0 +1,81 @@
+/* Barra de navegación */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 182, 193, 0.8);
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header a {
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+header .menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header .menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #ff69b4;
+    transition: background 0.3s;
+}
+
+header .menu li a:hover {
+    background: #ff1493;
+}
+
+/* Formulario */
+form {
+    background: #ffe4e1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffb6c1;
+    border-radius: 5px;
+}
+
+form button {
+    background: #ff69b4;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #ff1493;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background: rgba(255, 182, 193, 0.8);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #ffffff;
+}
